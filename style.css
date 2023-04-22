@@ -1,13 +1,13 @@
 body {
-	background-color: black;
-	width: 60%;
+	background-color: #131313;
+	width: 90%;
 	height: auto;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: left;
 	margin-top: 5%;
-    font-family: 'Poppins', sans-serif;
-    color: white;
+  font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
 /* @media only screen and (max-width: 768px) {
@@ -28,10 +28,16 @@ body {
 h1 {
 	color: #4237c8;
 	font-weight: 900;
+  font-size: 3em;
+
 }
 
 h2 {
-    font-weight: 700;
+  color: #948cdc;
+  font-weight: 700;
+  font-size: 2em;
+
+
 }
 
 h3 {
@@ -188,4 +194,8 @@ mark {
 @media only screen and (max-width: 479px) {
    .topnav{ display: none !important; }
    .gallery{ display: none !important; }
+}
+
+footer {
+  color: #D3D3D3;
 }
